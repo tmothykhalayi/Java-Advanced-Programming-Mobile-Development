@@ -1,7 +1,11 @@
-# Betakill Pest Control & Cleaning Services LTD
+#Sanitex Pest & Cleaning Pros
+
+
 
 ## Overview
-This project is a multi-page responsive website designed for **Betakill Pest Control & Cleaning Services LTD**, showcasing their services, testimonials, and contact information. The website was developed as part of a web development assignment and later adapted for a real-world client to provide a practical trial of the assignment's objectives.
+This project is a multi-page responsive website designed for **Sanitex Pest & Cleaning Pros
+
+**, showcasing their services, testimonials, and contact information. The website was developed as part of a web development assignment and later adapted for a real-world client to provide a practical trial of the assignment's objectives.
 
 ---
 
@@ -29,7 +33,7 @@ This project is a multi-page responsive website designed for **Betakill Pest Con
 ---
 
 ## Deployment
-The website is deployed on [GitHub Pages/Netlify/Vercel].  
+The website is deployed on [Vercel].  
 **Live URL**: [Add your live deployment link here]
 
 ---
@@ -45,18 +49,20 @@ The website is deployed on [GitHub Pages/Netlify/Vercel].
 ---
 
 ## Disclaimer
-This project was initially developed as part of a web development assignment to demonstrate skills in HTML5, CSS3, and JavaScript. It has been adapted for **Betakill Pest Control & Cleaning Services LTD** as a real-world trial of the assignment's objectives.
+This project was initially developed as part of a web development assignment to demonstrate skills in HTML5, CSS3, and JavaScript. It has been adapted for **Sanitex Pest & Cleaning Pros
+
+** as a real-world trial of the assignment's objectives.
 
 ---
 
 ## Contact
 For inquiries about the development of this project, please contact the developer:
 
-- **Name**: Bravin Ouma
-- **Email**: mireribravin2019@gmail.com
-- **Phone**: +254 791832015
-- **LinkedIn**: [linkedin.com/in/bravin-ouma](https://linkedin.com/in/bravin-ouma)
-- **WhatsApp**: [wa.link/icn8vi](https://wa.link/icn8vi)
+- **Name**:Timothy Khalayi
+- **Email**: Timothykhalayi96@gmail.com
+- **Phone**: +254 7995978606
+- **LinkedIn**: [linkedin.com/in/timothy-khalayi](https://linkedin.com/in/timothykhalayi)
+- 
 
 ---
 
