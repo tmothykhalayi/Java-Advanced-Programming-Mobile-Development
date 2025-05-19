@@ -14,7 +14,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
         if (targetElement) {
             window.scrollTo({
-                top: targetElement.offsetTop - 80,
+                top: targetElement.offsetTop - 80, // Adjust for fixed navbar
                 behavior: 'smooth'
             });
 
@@ -47,31 +47,61 @@ backToTopButton?.addEventListener('click', function () {
     });
 });
 
-// Form submission
+// Form submission (with validation)
 document.getElementById('contact-form')?.addEventListener('submit', function (e) {
     e.preventDefault();
+
+    // Get form values
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const phone = document.getElementById('phone').value;
+    const message = document.getElementById('message').value;
+    const service = document.getElementById('service').value;
+
+    // Simple validation
+    if (!name || !email || !phone || !message || !service) {
+        alert('Please fill in all the fields.');
+        return;
+    }
+
+    // If valid, proceed (for example, send data or show a success message)
     alert('Thank you for your message! We will contact you shortly.');
-    this.reset();
+    this.reset(); // Reset the form after successful submission
 });
 
-// Highlight active navigation link
+// Highlight active navigation link based on scroll position
 window.addEventListener('scroll', function () {
     const sections = document.querySelectorAll('section');
     const navLinks = document.querySelectorAll('.nav-link');
-
-    let current = '';
+    let currentSection = '';
 
     sections.forEach(section => {
         const sectionTop = section.offsetTop;
-        if (pageYOffset >= (sectionTop - 100)) {
-            current = section.getAttribute('id');
+        if (window.pageYOffset >= (sectionTop - 100)) {
+            currentSection = section.getAttribute('id');
         }
     });
 
     navLinks.forEach(link => {
         link.classList.remove('active-nav');
-        if (link.getAttribute('href') === `#${current}`) {
+        if (link.getAttribute('href') === `#${currentSection}`) {
             link.classList.add('active-nav');
+        }
+    });
+});
+
+// Optional: Smooth scrolling for anchor links (not needed if already handled above)
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href').slice(1); // Clean the # from href
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop - 80, // Adjust for fixed navbar
+                behavior: 'smooth'
+            });
         }
     });
 });
