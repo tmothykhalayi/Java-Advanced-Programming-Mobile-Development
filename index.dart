@@ -8,6 +8,7 @@ void main() {
   // Create a map of person details
   Map<String, dynamic> personDetails = {
     'name': name,
+    'nickname': 'Ali',
     'age': age,
     'height': height,
     'isStudent': isStudent,
