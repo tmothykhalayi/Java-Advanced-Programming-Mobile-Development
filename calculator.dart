@@ -2,29 +2,30 @@ import 'dart:io';
 
 void main() {
   print('Simple Calculator');
-  
+  print('Type an expression like: 3 + 5');
+  print('Type "exit" to quit.');
+
   while (true) {
-    stdout.write('\nEnter first number (or type "exit" to quit): ');
-    String? input1 = stdin.readLineSync();
-    if (input1 == null || input1.toLowerCase() == 'exit') break;
-    double? num1 = double.tryParse(input1);
-    if (num1 == null) {
-      print('Invalid number, try again.');
+    stdout.write('\nEnter expression: ');
+    String? input = stdin.readLineSync();
+
+    if (input == null) continue;
+    if (input.toLowerCase() == 'exit') break;
+
+    // Split input by space: e.g. ["3", "+", "5"]
+    List<String> parts = input.split(' ');
+
+    if (parts.length != 3) {
+      print('Invalid input format. Use: number operator number (e.g. 3 + 5)');
       continue;
     }
 
-    stdout.write('Enter operator (+, -, *, /): ');
-    String? operator = stdin.readLineSync();
-    if (operator == null || !['+', '-', '*', '/'].contains(operator)) {
-      print('Invalid operator, try again.');
-      continue;
-    }
+    double? num1 = double.tryParse(parts[0]);
+    String operator = parts[1];
+    double? num2 = double.tryParse(parts[2]);
 
-    stdout.write('Enter second number: ');
-    String? input2 = stdin.readLineSync();
-    double? num2 = double.tryParse(input2 ?? '');
-    if (num2 == null) {
-      print('Invalid number, try again.');
+    if (num1 == null || num2 == null) {
+      print('Invalid numbers.');
       continue;
     }
 
@@ -47,11 +48,11 @@ void main() {
         result = num1 / num2;
         break;
       default:
-        print('Unknown error.');
+        print('Invalid operator.');
         continue;
     }
 
-    print('Result: $num1 $operator $num2 = $result');
+    print('Result: $result');
   }
 
   print('Calculator closed. Goodbye!');
