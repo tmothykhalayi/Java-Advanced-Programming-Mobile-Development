@@ -1,0 +1,15 @@
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\MyFileApp\bin\Debug\net9.0\MyFileApp.exe
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\MyFileApp\bin\Debug\net9.0\MyFileApp.deps.json
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\MyFileApp\bin\Debug\net9.0\MyFileApp.runtimeconfig.json
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\MyFileApp\bin\Debug\net9.0\MyFileApp.dll
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\MyFileApp\bin\Debug\net9.0\MyFileApp.pdb
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\MyFileApp\obj\Debug\net9.0\MyFileApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\MyFileApp\obj\Debug\net9.0\MyFileApp.AssemblyInfoInputs.cache
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\MyFileApp\obj\Debug\net9.0\MyFileApp.AssemblyInfo.cs
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\MyFileApp\obj\Debug\net9.0\MyFileApp.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\MyFileApp\obj\Debug\net9.0\MyFileApp.sourcelink.json
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\MyFileApp\obj\Debug\net9.0\MyFileApp.dll
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\MyFileApp\obj\Debug\net9.0\refint\MyFileApp.dll
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\MyFileApp\obj\Debug\net9.0\MyFileApp.pdb
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\MyFileApp\obj\Debug\net9.0\MyFileApp.genruntimeconfig.cache
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\MyFileApp\obj\Debug\net9.0\ref\MyFileApp.dll

@@ -1,0 +1,15 @@
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\FirstCSharp\bin\Debug\net9.0\FirstCSharp.exe
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\FirstCSharp\bin\Debug\net9.0\FirstCSharp.deps.json
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\FirstCSharp\bin\Debug\net9.0\FirstCSharp.runtimeconfig.json
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\FirstCSharp\bin\Debug\net9.0\FirstCSharp.dll
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\FirstCSharp\bin\Debug\net9.0\FirstCSharp.pdb
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\FirstCSharp\obj\Debug\net9.0\FirstCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\FirstCSharp\obj\Debug\net9.0\FirstCSharp.AssemblyInfoInputs.cache
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\FirstCSharp\obj\Debug\net9.0\FirstCSharp.AssemblyInfo.cs
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\FirstCSharp\obj\Debug\net9.0\FirstCSharp.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\FirstCSharp\obj\Debug\net9.0\FirstCSharp.sourcelink.json
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\FirstCSharp\obj\Debug\net9.0\FirstCSharp.dll
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\FirstCSharp\obj\Debug\net9.0\refint\FirstCSharp.dll
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\FirstCSharp\obj\Debug\net9.0\FirstCSharp.pdb
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\FirstCSharp\obj\Debug\net9.0\FirstCSharp.genruntimeconfig.cache
+C:\Users\PC\OneDrive\Desktop\Projects\ASP.NET\FirstCSharp\obj\Debug\net9.0\ref\FirstCSharp.dll
